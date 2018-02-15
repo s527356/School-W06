@@ -8,7 +8,7 @@ Open a command window in your ~\W06 folder.
 
 Run npm install to install all the dependencies in the package.json file.
 
-Run node server.js to start the server.  (Hit CMD-C to stop.)
+Run node server.js to start the server.  (Hit CTRL-C to stop.)
 
 ```
 > npm install
