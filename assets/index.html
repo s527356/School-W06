@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+      <title>W06 Chat</title>
+      <link rel="stylesheet" href="assets/chat.css" type="text/css" />
+      <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+      <script src="assets/chat.js"></script>
+</head>
+
+<body>
+    <ul id="messages"></ul>
+
+    <div id="notifyUser"></div>
+
+    <form id="form" onsubmit="return submitfunction()">
+        <input type="hidden" id="user" value="">
+        <input id="m" autocomplete="off" onkeyup="notifyTyping()" placeholder="Type your message here..">
+        <input type="submit" id="button" value="Send">
+    </form>
+</body>
+
+</html>

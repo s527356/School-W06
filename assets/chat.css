@@ -1,0 +1,47 @@
+* { 
+    color: gray;
+    margin: auto;
+    max-width: 500px;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    font: .8em Helvetica, Arial; 
+}
+form {
+    padding: 3px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+form input { 
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    padding: 10px; 
+    width: 89%; 
+    margin-right: .5%; 
+}
+form #button { 
+    color: white; 
+    border-radius: 8px;
+    height: 100%;
+    background-color: teal; 
+    border: none; 
+    padding: 10px;  
+    width: 9%; 
+}
+#messages { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+#messages li { 
+    padding: 5px 10px; 
+}
+#notifyUser { 
+    position: fixed; 
+    bottom: 100px; 
+    width: 100%; 
+}
